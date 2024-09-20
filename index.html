@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flow Music Festival 2025</title>
+  <meta content="initial-scale=1, width=device-width" name="viewport">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="media/favicon(1).ico">
+  <meta name="description"
+    content="Upplev Flow Music Festival 2025 - Allt du behöver veta om festivalen, och mer. Boka biljetter nu!">
+</head>
+
+<body>
+
+  <!-- Header är "blocket" där nav-baren är i, hela överdelen av sidan. Där sidans rubrik står + logotyp + eventuellt länk till biljetter kommer vara-->
+
+  <header>
+    <nav>
+      <!-- a href = / gör att loggan går att klicka på och du hamnar tillbaka på förstasidan height för sidan laddas innan bilden så att allt ser bra ut direkt -->
+      <a href="index.html" class="logo">
+        <img src="./media/logo.png" alt="Flow Music Festival Logo" height="40">
+      </a>
+      <!--Byta mellan open/closed menu-->
+      <input type="checkbox" id="check">
+
+      <!--Hamburgarn (ikonen)-->
+      <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+
+      <!--Nav baren-->
+      <ul class="menu">
+        <li><a href="#lineup">Lineup</a></li>
+        <li><a href="#artists">Artists</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!--Hamburgarn stängs -->
+      <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+    </nav>
+    <div class="header-text">
+      <h1>Flow Music Festival 2025</h1>
+      <p>August 28-30, Stockholm, Sweden</p>
+    </div>
+  </header>
+
+  <main>
+    <article id="get-tickets">
+      <a href="https://www.example.com/tickets" class="ticket-store" target="_blank" rel="noopener noreferrer">
+        <h2>Get tickets</h2>
+      </a>
+    </article>
+
+    <section id="lineup">
+      <h2>Lineup 2025</h2>
+
+      <h3> Thursday </h3>
+      <p>Pelle Svanslös • Tina Turner • Svampbob Fyrkant • Nisse Nickel </p>
+
+      <h3> Friday </h3>
+      <p>Tim tomtebloss • Lady gaga • Pizzamaker • Stefan Trattsson • Magnus Uggla </p>
+
+      <h3> Saturday </h3>
+      <p>Greta garbo • Pilsner Pelle • Gorby Gorvkök • Ghormeh Sabzi</p>
+    </section>
+
+    <section id="info">
+      <h2>Information</h2>
+      <div class="info-container">
+        <article id="ticket-info">
+          <h3>Ticket info</h3>
+        </article>
+        <article id="getting-there">
+          <h3>Getting there</h3>
+        </article>
+        <article id="food-drinks">
+          <h3>Food & Drinks</h3>
+        </article>
+        <article id="rules">
+          <h3>Rules</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <h4>Are there any age restrictions for the festival?</h4>
+      <p>Yes, attendees must be 18+ unless accompanied by a guardian.</p>
+      <h4>Can I bring my own food and drinks?</h4>
+      <p>No outside food or drinks are permitted, but there will be vendors on site.</p>
+      <h4>Is there parking available at the festival venue?</h4>
+      <p>Yes, parking is available, but spaces are limited. Consider using public transportation.</p>
+    </section>
+  </main>
+
+  <!-- Footern är det som är längst ner på sidan, kan innehålla typ copyright eller kontakt osv-->
+  <footer>
+    <section id="contact">
+      <h2>Contact us</h2>
+      <p>Tel. - 112-112-112</p>
+      <p>Mail - info@flow.com</p>
+      <p>Adress - The Abyss, 112 12 Stockholm</p>
+    </section>
+  </footer>
+
+</body>
+
+</html>
+
+<!-- VALIDERAD O KOLLAD FREDAG 20 SEPTEMBER 2024-->
